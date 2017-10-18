@@ -1,0 +1,27 @@
+{
+  "name": "html-to-pdf",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "electron": "^1.7.8",
+    "express": "~4.15.2",
+    "morgan": "~1.8.1",
+    "nightmare": "^2.10.0",
+    "pug": "~2.0.0-beta11",
+    "serve-favicon": "~2.4.2"
+  },
+  "description": "HTML to PDF webapp based on nightmare",
+  "main": "app.js",
+  "devDependencies": {},
+  "keywords": [
+    "html-to-pdf"
+  ],
+  "author": "rishavv",
+  "license": "ISC"
+}
