@@ -3,7 +3,7 @@ var router = express.Router();
 
 
 const Nightmare = require('nightmare');
-const nightmare = Nightmare({ show: false });
+const nightmare = Nightmare({ show: true });
 const path = require('path');
 
 const defaultOptions = {
@@ -21,7 +21,7 @@ const defaultOptions = {
      */
     landscape: false,
 
-    outputFolder: "/Users/risavv/code/sema4/html-to-pdf/public",
+    outputFolder: "./public",
     outputFileName: randomString(5) + '.pdf',
 
     // this SHOULD BE WITHOUT 'file://' prefix otherwise cannot find the file
